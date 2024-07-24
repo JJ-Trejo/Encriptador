@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <main class="encriptador">
+
+    <!-- bloque 1 - logo alura || ingresar texto || información || botones -->
+        <div class="presentacion">
+
+            <img class="imagen_logo" src="/assets/Logo.png" alt="logo de Alura Latam">
+            
+            <div class="presentacion_bloque">
+            
+                <textarea class="presentacion_texto" id="presentacion_texto_id" type="texto_" placeholder="Ingrese el texto aquí"></textarea>
+
+                <p class="presentacion_texto_informacion"> &#128169 Solo letras minúsculas y sin acentos</p>
+
+                <div class="boton">
+                    <!--llama a la función "eliminarImagen()" cuando se da click en el boton "Encriptador"-->
+                    <button class="boton_primario" onclick="llamaFuncionEncriptador();">Encriptador</button>
+                    <button class="boton_secundario" onclick="llamaFuncionDesencriptador();">Desencriptar</button>
+                </div>
+
+            </div>
+        </div>
+
+    <!-- bloque 2 - Mensaje de salida y boton desencriptar -->
+        <div class="cuadro_salida">
+
+                <p class="salida_resultado" id="salida_resultado_id">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab corporis quam nemo veniam doloremque accusantium natus earum. Ipsa, illum amet. Doloribus earum exercitationem quas non eaque ipsum aut atque odit?</p>
+        
+                <div class="bloque_boton_copiar" id="bloque_boton_copiar_id">
+                    <button class="boton_copiar" onclick="copyToClipboard();">Copiar</button>
+                </div>   
+
+            <div class="salida" id="salida_eliminar">
+                <img class="muñeco" src="/assets/Muñeco.png" alt="imagen mueñeco con lupa">
+                <p class="salida_texto1">Ningún mensaje fue encontrado</p>
+                <p class="salida_texto2">Ingresa el texto que desees encriptar o desencriptar </p>
+            </div>
+        </div>
+    </main>
+
+    <!-- pie de pagina -->
+    <footer>
+        <p class="foot">Desarrollado por J.J. Trejo</p>
+    </footer>
+
+    <!--de esta manera se incluye el archivo "app.js" en HTML-->
+    <script src="app.js"></script>
+</body>
+
+</html>
