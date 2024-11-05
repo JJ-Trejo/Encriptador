@@ -2,7 +2,7 @@
 
 ![Imagen referida a la encriptación](https://github.com/user-attachments/assets/0793412c-bc4b-43fe-aaa9-fdc00824c956)
 
-<!-- De esta forma se colcoa el Badge cuando no esta dentro de <p> ![Badge Finalizado](https://img.shields.io/badge/STATUS-FINALIZADO-green)   -->
+<!-- De esta forma se coloca el Badge cuando no esta dentro de <p> ![Badge Finalizado](https://img.shields.io/badge/STATUS-FINALIZADO-green)   -->
 
 <p align="center">
   <img src=https://img.shields.io/badge/STATUS-FINALIZADO-GREEN
